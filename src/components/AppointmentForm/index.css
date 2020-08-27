@@ -1,0 +1,37 @@
+.form-element .form-input,
+.form-element textarea {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.form-group {
+    margin: 8px 0;
+}
+
+.btn-holder {
+    text-align: center;
+}
+
+.form-label {
+    margin: 4px 0;
+}
+
+.form-dp {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.form-element .react-datepicker-wrapper,
+.form-element .react-datepicker__input-container {
+    display: block;
+}
+
+.form-btn {
+    border: none;
+    width: 150px;
+    font-size: 1rem;
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: -0.9px;
+}
+
+.actions {
+    margin: 16px 0;
+    display: flex;
+    border-top: 1px solid black;
+    padding: 8px 0;
+}
+
+#create-btn {
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #fff5ee;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 8px;
+    letter-spacing: 0.5px;
+}

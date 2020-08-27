@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 4px;
+}
+
+thead th {
+    background-color: #6a5acd;
+    text-align: left;
+    padding: 12px;
+}
+
+tbody td {
+    padding: 12px;
+}
+
+table,
+th,
+td {
+    border-bottom: solid 0.4px black;
+}
+
+tr:hover {
+    background-color: #f0f8ff;
+}
+
+.td-comments {
+    max-width: 15vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+td .table-btn {
+    width: 75px;
+    border: none;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete-btn {
+    background-color: crimson;
+    color: white;
+}
